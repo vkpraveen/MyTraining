@@ -48,10 +48,12 @@ namespace properties
         }
         public override string ToString()
         {
+            Console.WriteLine("override");
             return "Age = " + Age;
         }
  
     }
+
     class Program
     {
         static void Main(string[] args)
